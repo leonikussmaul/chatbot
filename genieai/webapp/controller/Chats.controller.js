@@ -21,9 +21,10 @@ function (Controller, ODataListBinding, NewEntityDialog, Event, ListItemBase) {
             var oBinding = oView.byId("chatList").getBinding("items");
         
             // Create a new entry in the list binding
-            var oContext = oBinding.create({
-                text_chunk: "New Chat"
-            });
+            var oContext; 
+           // oContext = oBinding.create({
+                //text_chunk: "New Chat"
+           // });
         
             // Create an instance of the NewEntityDialog
             var oDialog = new NewEntityDialog(oContext, "NewChatDialog", oView);
