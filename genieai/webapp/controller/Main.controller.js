@@ -18,6 +18,7 @@ function (Controller) {
             var oInput = oChatModel.getProperty("/userInput");
         
             var oModel = this.getView().getModel();
+            //test
         
             // Create a binding context for the new entry
             var oListBinding = oModel.bindList("/chat");
