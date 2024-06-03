@@ -1,0 +1,17 @@
+
+
+
+<mvc:View controllerName="genieai.controller.NoChat" displayBlock="true"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:f="sap.f"
+    xmlns:layout="sap.ui.layout">
+
+    	<IllustratedMessage enableVerticalResponsiveness="true" illustrationType="sapIllus-NoTasks"
+        title="Start a Chat" description="Your Chat History will appear here">
+					<additionalContent>
+						<Button text="New Chat" press="onAddChat" />
+					</additionalContent>
+				</IllustratedMessage>
+
+</mvc:View>

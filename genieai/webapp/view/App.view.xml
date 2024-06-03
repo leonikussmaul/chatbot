@@ -1,0 +1,24 @@
+<mvc:View controllerName="genieai.controller.App" displayBlock="true"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+
+	<App id="app">
+		<mvc:View controllerName="genieai.controller.App" displayBlock="true"
+			xmlns="sap.m"
+			xmlns:f="sap.f"
+			xmlns:mvc="sap.ui.core.mvc">
+
+			  <f:FlexibleColumnLayout
+                    id="fcl"
+                    stateChange="onStateChanged"
+                    layout="{global>/layout}"
+                    backgroundDesign="Solid"
+                />
+
+		</mvc:View>
+	</App>
+
+</mvc:View>
+
+
+
