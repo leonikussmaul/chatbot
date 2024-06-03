@@ -12,6 +12,7 @@ function (Controller) {
             }), "chatModel");
         
         },
+        //test
 
         onPostMessage: function(oEvent) {
             var oChatModel = this.getView().getModel("chatModel");
